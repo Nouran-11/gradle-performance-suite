@@ -1,5 +1,3 @@
-# gradle-performance-suite
-Performance profiling suite for Gradle builds using Gradle Profiler
 # Gradle Performance Profiling Suite
 
 A lightweight suite for benchmarking Gradle build performance, especially around Configuration Cache and configuration time. This suite is part of my application for the **Google Summer of Code (GSoC) 2025** project focused on **Improving Configuration Cache** in Gradle.
