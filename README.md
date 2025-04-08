@@ -31,16 +31,8 @@ Configuration Cache Reuse
 
 🧹 Clean Builds (Cold)
 To simulate cold builds, delete .gradle/ and build/ directories before running:
-
-bash
-Copy
-Edit
 rm -rf sample-java/.gradle sample-java/build
+
 📜 GSoC 2025 Project
 This suite is developed as part of my Google Summer of Code (GSoC) 2025 application. The project focuses on improving Configuration Cache in Gradle, with an emphasis on reducing lock contention and enhancing cache reuse. The suite helps measure and optimize Gradle's configuration performance, a crucial part of my GSoC proposal.
 
-vbnet
-Copy
-Edit
-
-This way, you’re clearly linking the profiling suite to your GSoC application while providing users with
