@@ -1,0 +1,6 @@
+/results/
+.gradle/
+build/
+*.jfr
+*.csv
+*.json

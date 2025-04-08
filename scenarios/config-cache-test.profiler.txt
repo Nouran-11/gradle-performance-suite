@@ -1,0 +1,19 @@
+
+warm-config-cache {
+    tasks = clean build
+    gradle-args = --configuration-cache
+    warm-ups = 2
+    iterations = 5
+    use-daemon = true
+    measure-config-time = true
+}
+
+
+cold-no-cache {
+    tasks = clean build
+    gradle-args =
+    warm-ups = 2
+    iterations = 5
+    use-daemon = true
+    measure-config-time = true
+}
