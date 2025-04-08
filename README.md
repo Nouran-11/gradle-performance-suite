@@ -4,13 +4,13 @@ Performance profiling suite for Gradle builds using Gradle Profiler
 
 A lightweight suite for benchmarking Gradle build performance, especially around Configuration Cache and configuration time. This suite is part of my application for the **Google Summer of Code (GSoC) 2025** project focused on **Improving Configuration Cache** in Gradle.
 
-## 📂 Structure
+##  Structure
 
 - `sample-java/`: A basic Java project to test Gradle performance.
 - `scenarios/`: Contains `.profiler` files used by [Gradle Profiler](https://github.com/gradle/gradle-profiler).
 - `results/`: Output directory for benchmark results.
 
-## 🚀 How to Run
+##  How to Run
 
 1. Install [Gradle Profiler](https://github.com/gradle/gradle-profiler).
 2. Run the profiler:
